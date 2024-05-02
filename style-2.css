@@ -1,26 +1,19 @@
 nav a {
     text-decoration: none;
     color: crimson;
-    display: inline-block;
-    position: relative;
 }
 
 nav a::after {
     content: '';
     display: block;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;    
+    width: 0;
     height: 2px;
     background: crimson;
-    transform: scaleX(0);
-    transform-origin: left;
-    transition: transform .3s;
+    transition: width .3s;
 }
 
 nav a:hover::after {
-    transform: scaleX(1);
+    width: 100%;
 }
 
 .about blockquote {
