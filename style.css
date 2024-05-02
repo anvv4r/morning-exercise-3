@@ -45,12 +45,12 @@ nav a:hover::after {
     font-weight: bold;
 }
 
-.cta h1 {
+.cta h2 {
     color: crimson;
     font-family: 'Lato', sans-serif;
 }
 
-ul li:first-child,
+ul li:nth-child(1),
 ul li:nth-child(3) {
     text-decoration: underline;
 }
