@@ -28,22 +28,22 @@ nav a:hover::after {
     color: crimson;
 }
 
-.creators a {
+.creators .link {
     font-family: 'Lato', sans-serif;
     text-decoration: none;
 }
 
-.creators .font-name {
+.creators .link.font {
     font-family: 'PT Serif', serif;
     font-weight: bold;
 }
 
-.cta h1 {
+.cta h2 {
     color: crimson;
     font-family: 'Lato', sans-serif;
 }
 
-ul li:first-child,
+ul li:nth-child(1),
 ul li:nth-child(3) {
     text-decoration: underline;
 }
