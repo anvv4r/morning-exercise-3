@@ -1,8 +1,19 @@
 nav a {
     text-decoration: none;
     color: crimson;
-    /* font-size: 1.25rem;
-    font-weight: bold; */
+}
+
+nav a::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: crimson;
+    transition: width .3s;
+}
+
+nav a:hover::after {
+    width: 100%;
 }
 
 .about blockquote {
