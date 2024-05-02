@@ -1,0 +1,38 @@
+nav a {
+    text-decoration: none;
+    color: crimson;
+    /* font-size: 1.25rem;
+    font-weight: bold; */
+}
+
+.about blockquote {
+    background-color: #eaeaea;
+}
+
+.users span {
+    font-weight: bold;
+}
+
+.users span:nth-of-type(2) {
+    color: crimson;
+}
+
+.creators a {
+    font-family: 'Lato', sans-serif;
+    text-decoration: none;
+}
+
+.creators .font-name {
+    font-family: 'PT Serif', serif;
+    font-weight: bold;
+}
+
+.cta h1 {
+    color: crimson;
+    font-family: 'Lato', sans-serif;
+}
+
+ul li:first-child,
+ul li:nth-child(3) {
+    text-decoration: underline;
+}
